@@ -8,7 +8,7 @@ body{
 
 table{
 	border-collapse: collapse;
-	width: 80%;
+	width: 100%;
 	background-color: desaturate(#d7dbdd, 10%);
 	border: none;
 	margin: auto;
@@ -25,6 +25,10 @@ th{
 	font-weight: bold;
 }
 
+.table_wrapper{
+	width: 100%;
+}
+
 .header_wrapper{
 	height: 80px;
 	color: #eee;
@@ -34,7 +38,7 @@ th{
 .header_area{
 	
 	height: 80px;
-	width: 80%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -46,5 +50,12 @@ footer{
 
 	&>.h6{
 		margin-bottom: 0;
+	}
+}
+
+@media screen and ( min-width: 40em) {
+	.table_wrapper, .header_area{
+		width: 80%;
+		margin: auto;
 	}
 }

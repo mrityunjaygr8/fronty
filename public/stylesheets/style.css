@@ -67,6 +67,7 @@ h6,
 /* line 68, ../sass/_typography.scss */
 body {
   font-family: "Lato", "Helvetica", sans-serif;
+  color: #2c3e50;
 }
 
 /* line 3, ../sass/style.scss */
@@ -79,7 +80,7 @@ body {
 /* line 9, ../sass/style.scss */
 table {
   border-collapse: collapse;
-  width: 80%;
+  width: 100%;
   background-color: #dadada;
   border: none;
   margin: auto;
@@ -99,27 +100,40 @@ th {
 }
 
 /* line 28, ../sass/style.scss */
+.table_wrapper {
+  width: 100%;
+}
+
+/* line 32, ../sass/style.scss */
 .header_wrapper {
   height: 80px;
   color: #eee;
   background-color: #e74c3c;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .header_area {
   height: 80px;
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 footer {
   background-color: #e74c3c;
   color: #d7dbdd;
   text-align: center;
   margin-bottom: 0;
 }
-/* line 47, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 footer > .h6 {
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 57, ../sass/style.scss */
+  .table_wrapper, .header_area {
+    width: 80%;
+    margin: auto;
+  }
 }
