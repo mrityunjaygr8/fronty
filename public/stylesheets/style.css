@@ -1,45 +1,109 @@
-/* line 1, ../sass/style.scss */
+/* line 1, ../sass/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 19, ../sass/_typography.scss */
+h1,
+.h1 {
+  font-size: 4.0rem;
+  line-height: 1.2;
+  letter-spacing: -.1rem;
+}
+
+/* line 27, ../sass/_typography.scss */
+h2,
+.h2 {
+  font-size: 3.6rem;
+  line-height: 1.25;
+  letter-spacing: -.1rem;
+}
+
+/* line 35, ../sass/_typography.scss */
+h3,
+.h3 {
+  font-size: 3.0rem;
+  line-height: 1.3;
+  letter-spacing: -.1rem;
+}
+
+/* line 43, ../sass/_typography.scss */
+h4,
+.h4 {
+  font-size: 2.4rem;
+  line-height: 1.35;
+  letter-spacing: -.08rem;
+}
+
+/* line 51, ../sass/_typography.scss */
+h5,
+.h5 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: -.05rem;
+}
+
+/* line 59, ../sass/_typography.scss */
+h6,
+.h6 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+/* line 68, ../sass/_typography.scss */
+body {
+  font-family: "Lato", "Helvetica", sans-serif;
+}
+
+/* line 3, ../sass/style.scss */
 body {
   background: #edf;
   padding: 0;
   margin: 0;
 }
 
-/* line 6, ../sass/style.scss */
-h1 {
-  margin: 0;
-  padding: 0.5em 0;
-}
-
-/* line 11, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 table {
   border-collapse: collapse;
   width: 100%;
-  background-color: #726;
+  background-color: #267;
   color: white;
 }
 
-/* line 18, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 td, th {
-  text-align: left;
+  text-align: center;
   padding: 8px;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .table_wrapper {
   width: 80%;
   margin: auto;
   background-color: #333;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 .header_wrapper {
   height: 80px;
-  background-color: #135;
   color: white;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .header_area {
   background-color: #246;
   width: 80%;
@@ -47,22 +111,22 @@ td, th {
   height: 80px;
 }
 
-/* line 43, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .header_links {
   list-style-type: none;
 }
-/* line 48, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .header_links.header_item {
   width: 60%;
   float: left;
 }
-/* line 53, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .header_links a.header_links {
   color: white;
   text-decoration: none;
 }
 
-/* line 59, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .header_item {
   display: block;
 }

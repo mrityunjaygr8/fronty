@@ -1,22 +1,20 @@
+@import "typography";
+
 body{
 	background: #edf;
 	padding: 0;
 	margin: 0;
 }
-h1{
-	margin: 0;
-	padding: 0.5em 0;
-}
 
 table{
 	border-collapse: collapse;
 	width: 100%;
-	background-color: #726;
+	background-color: #267;
 	color: white;
 }
 
 td, th {
-	text-align: left;
+	text-align: center;
 	padding: 8px;
 }
 
@@ -28,8 +26,9 @@ td, th {
 
 .header_wrapper{
 	height: 80px;
-	background-color: #135;
+	// background-color: #135;
 	color: white;
+	// padding: 5px;
 }
 
 .header_area{
