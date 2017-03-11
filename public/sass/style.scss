@@ -1,41 +1,41 @@
 @import "typography";
 
 body{
-	background: #edf;
+	background: #ecf0f1;
 	padding: 0;
 	margin: 0;
 }
 
 table{
 	border-collapse: collapse;
-	width: 100%;
-	background-color: #267;
-	color: white;
+	width: 80%;
+	background-color: #d7dbdd;
+	border: none;
+	margin: auto;
 }
 
 td, th {
 	text-align: center;
 	padding: 8px;
+	color: #333;
 }
 
-.table_wrapper{
-	width: 80%;
-	margin: auto;
-	background-color: #333;
+th{
+	color: #e74c3c;
+	font-weight: bold;
 }
 
 .header_wrapper{
 	height: 80px;
-	// background-color: #135;
-	color: white;
-	// padding: 5px;
+	color: #eee;
+	background-color: #e74c3c;
 }
 
 .header_area{
-	background-color: #246;
+	
+	height: 80px;
 	width: 80%;
 	margin: auto;
-	height: 80px;
 }
 
 .header_links{
@@ -57,4 +57,15 @@ td, th {
 
 .header_item{
 	display: block;
+}
+
+footer{
+	background-color: #e74c3c;
+	color: #d7dbdd;
+	text-align: center;
+	margin-bottom: 0;
+
+	&>.h6{
+		margin-bottom: 0;
+	}
 }
