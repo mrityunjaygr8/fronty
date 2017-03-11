@@ -9,7 +9,7 @@ body{
 table{
 	border-collapse: collapse;
 	width: 80%;
-	background-color: #d7dbdd;
+	background-color: desaturate(#d7dbdd, 10%);
 	border: none;
 	margin: auto;
 }
@@ -17,7 +17,7 @@ table{
 td, th {
 	text-align: center;
 	padding: 8px;
-	color: #333;
+	color: #2c3e50;
 }
 
 th{
@@ -36,27 +36,6 @@ th{
 	height: 80px;
 	width: 80%;
 	margin: auto;
-}
-
-.header_links{
-	&{
-		list-style-type: none;
-
-	}
-
-	&.header_item{
-		width: 60%;
-		float: left;
-	}
-
-	a.header_links{
-		color: white;
-		text-decoration: none;
-	}
-}
-
-.header_item{
-	display: block;
 }
 
 footer{

@@ -80,7 +80,7 @@ body {
 table {
   border-collapse: collapse;
   width: 80%;
-  background-color: #d7dbdd;
+  background-color: #dadada;
   border: none;
   margin: auto;
 }
@@ -89,7 +89,7 @@ table {
 td, th {
   text-align: center;
   padding: 8px;
-  color: #333;
+  color: #2c3e50;
 }
 
 /* line 23, ../sass/style.scss */
@@ -112,34 +112,14 @@ th {
   margin: auto;
 }
 
-/* line 42, ../sass/style.scss */
-.header_links {
-  list-style-type: none;
-}
-/* line 47, ../sass/style.scss */
-.header_links.header_item {
-  width: 60%;
-  float: left;
-}
-/* line 52, ../sass/style.scss */
-.header_links a.header_links {
-  color: white;
-  text-decoration: none;
-}
-
-/* line 58, ../sass/style.scss */
-.header_item {
-  display: block;
-}
-
-/* line 62, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 footer {
   background-color: #e74c3c;
   color: #d7dbdd;
   text-align: center;
   margin-bottom: 0;
 }
-/* line 68, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 footer > .h6 {
   margin-bottom: 0;
 }
